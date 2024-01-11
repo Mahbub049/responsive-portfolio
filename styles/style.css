@@ -73,7 +73,7 @@ nav a{
     justify-content: space-between;
 }
 .pro-pic{
-    width: 584px;
+    width: 500px;
     height: 676px;
 }
 .banner-greeting{
@@ -221,4 +221,74 @@ footer{
     border-radius: 5px;
     background: #FFF;
     width: 100%;
+}
+
+/* Responsive Web Design */
+@media screen and (max-width:576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    #whatido{
+        padding: 30px;
+    }
+    .resume-container{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea{
+        width: 80%;
+    }
+    .footer-column-style{
+        text-align: center;
+    }
+    .contact  .btn-primary{
+        display: flex;
+        justify-content: center;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .about{
+        padding: 50px;
+    }
+
+    .header{
+        background-image: none;
+    }
+    nav, nav > ul{
+        flex-direction: column;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    .banner{
+        padding-left: 10%;
+        flex-direction: column;
+    }
+    .btn-primary{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .pro-pic{
+        height: 100%;
+        width: 100%;
+    }
+    .banner-description{
+        width: 80%;
+    }
+    .banner-content{
+        width: 100%;
+        margin: 0px;
+    }
+    .download-cv{
+        display: flex;
+        justify-content: center;
+    }
 }
