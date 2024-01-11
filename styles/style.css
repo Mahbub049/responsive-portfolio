@@ -1,0 +1,224 @@
+/* Frequently used CSS Stules */
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    color:  #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px 19px 36px;
+    border: 0;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* Navigation Bar */
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 230px 0 226px;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* Header */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, center left;
+}
+.banner{
+    padding: 30px 30px 0px 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pro-pic{
+    width: 584px;
+    height: 676px;
+}
+.banner-greeting{
+    color:  #474747;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    color:  #181818;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.banner-content{
+    width: 585px;
+}
+
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+}
+
+/* About Section */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #edb791;
+    margin: 130px 0;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+    line-height: 10px;
+}
+
+/* .info-title{
+    margin-bottom: 0px;
+}
+
+.info-description{
+    margin-top: 0px;
+} */
+
+#whatido{
+    padding: 30px 150px;
+}
+
+/* skills related style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description{
+    color: #757575;
+}
+
+
+/* Resume Section Styling */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    gap: 71px;
+}
+.resume-item-description, .resume-item-institute{
+    color: #757575 ;
+}
+.resume-item-description{
+    margin-top: 20px;
+}
+.resume-item-institute{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-container hr{
+    background-color: #D1D1D1;
+    margin: 30px 0px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer Styles */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 130px;
+    gap: 117px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.footer-column-style{
+    text-align: left;
+}
+
+.social-links a{
+    margin-right: 25px;
+    width: 24px;
+    height: 24px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px 18px 30px;
+    color: #757575;
+    border: 0px;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+}
